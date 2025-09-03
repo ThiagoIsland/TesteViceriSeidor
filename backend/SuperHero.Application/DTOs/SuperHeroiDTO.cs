@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace SuperHeroi.Application.DTOs
 {
     public class SuperHeroiDTO
     {
+        [JsonIgnore]
+        public int Id { get; set; }
         [Required]
         public string Nome { get; set; }
         [Required]
@@ -17,6 +20,6 @@ namespace SuperHeroi.Application.DTOs
         public double Altura { get; set; }
         [Required]
         public double Peso { get; set; }
-        public ICollection<SuperPoderesDTO> SuperPoderes { get; set; } = new List<SuperPoderesDTO>();
+        public ICollection<SuperPoderesDTO> SuperPoderes { get; set; }
     }
 }

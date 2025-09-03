@@ -21,20 +21,25 @@ namespace SuperHeroi.Infra.Repositories
         }
         public async Task<List<Herois>> ObterTodosHerois()
         {
-            return await _context.Herois.ToListAsync();
+            return await _context.Herois
+                .Include(Heroi => Heroi.HeroisSuperpoderes)
+                .ThenInclude(HeroiSp => HeroiSp.Superpoder)
+                .ToListAsync();
         }
         public async Task<Herois> ObterHeroiPeloId(int id)
         {
-            return await _context.Herois.FindAsync(id);
+            return await _context.Herois
+                .Include(Heroi => Heroi.HeroisSuperpoderes)
+                .ThenInclude(HeroiSp => HeroiSp.Superpoder)
+                .FirstOrDefaultAsync(x => x.Id == id);                     
         }
         public async Task<Herois> ObterHeroiPeloNome(string nome)
         {
-            return await _context.Herois.FirstOrDefaultAsync(heroi => heroi.Nome == nome);
+            return await _context.Herois
+                .Include(Heroi => Heroi.HeroisSuperpoderes)
+                .ThenInclude(HeroiSp => HeroiSp.Superpoder)
+                .FirstOrDefaultAsync(x => x.Nome == nome); ;
         }
-        //public async Task<Herois> AtualizarHeroiPeloId(int Id)
-        //{
-        //    return _context.Herois.FindAsync();
-        //}
         public async Task RemoverHeroi(Herois heroi)
         {
             _context.Herois.Remove(heroi);

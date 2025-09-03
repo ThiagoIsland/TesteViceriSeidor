@@ -85,9 +85,28 @@ namespace SuperHeroi.API.Controllers
 
         }
         [HttpPut("{id}")]
-        public void AtualizarSuperHeroi(int id, SuperHeroiDTO heroiDTO)
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> AtualizarSuperHeroi(int id, SuperHeroiDTO heroiDTO)
         {
-
+            try
+            { 
+                var atualizarHeroi = await _service.AtualizarHeroi(id, heroiDTO);
+                return Ok(atualizarHeroi);
+            }
+            catch (BadRequestException ex)
+            {
+                return BadRequest(new { message = ex });
+            }
+            catch (NotFoundException ex)
+            {
+                return NotFound(new { message = ex });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Erro interno no servidor" });
+            }
         }
         [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]

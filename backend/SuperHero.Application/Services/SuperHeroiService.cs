@@ -14,7 +14,12 @@ namespace SuperHeroi.Application.Services
     public class SuperHeroiService : ISuperHeroiService
     {
         private readonly ISuperHeroiRepository _heroiRepository;
-        public SuperHeroiService(ISuperHeroiRepository heroiRepository) => _heroiRepository = heroiRepository;
+        private readonly IHeroiSuperPoderesRepository _heroiSuperPoderesRepository;
+        public SuperHeroiService(ISuperHeroiRepository heroiRepository, IHeroiSuperPoderesRepository heroiSuperPoderesRepository) 
+        {
+            _heroiRepository = heroiRepository;
+            _heroiSuperPoderesRepository = heroiSuperPoderesRepository;
+        } 
 
         public async Task<Herois> RegistrarSuperHeroi(SuperHeroiDTO heroiDTO)
         {
@@ -34,10 +39,12 @@ namespace SuperHeroi.Application.Services
                   Altura = heroiDTO.Altura,
                   Peso = heroiDTO.Peso,
                 };
+                await _heroiRepository.RegistrarSuperHeroi(heroi);
 
                 List<HeroisSuperpoderes> heroisSuperpoderes = heroiDTO.SuperPoderes.Select(Sp => new HeroisSuperpoderes(heroi.Id, Sp.Id)).ToList();
+                await _heroiSuperPoderesRepository.AdicionarPoderesSuperHeroiPeloId(heroisSuperpoderes);
 
-                return await _heroiRepository.RegistrarSuperHeroi(heroi);
+                return heroi;
             }
             catch(Exception)
             {
@@ -89,6 +96,7 @@ namespace SuperHeroi.Application.Services
                 if (heroiExistente != null)
                 {
                     throw new AlreadyExistsException("Já existe um héroi com esse nome. Por favor, tente outro nome");
+
                 }
 
                 heroi.Nome = heroiDTO.Nome;
@@ -96,11 +104,13 @@ namespace SuperHeroi.Application.Services
                 heroi.DataNascimento = heroiDTO.DataNascimento;
                 heroi.Altura = heroiDTO.Altura;
                 heroi.Peso = heroiDTO.Peso;
-                
-                List<int> IdsPoderesAtuais = heroi.HeroisSuperpoderes.Select(poderes => poderes.Superpoder.Id).ToList();
-                List<int> IdsPoderesnovos = heroiDTO.SuperPoderes.Select(poderes => poderes.Id).ToList();
 
-                return null;
+                List<HeroisSuperpoderes> IdsPoderesAtuais = heroi.HeroisSuperpoderes.ToList();
+                await _heroiSuperPoderesRepository.RemoverPoderesSuperHeroiPeloId(IdsPoderesAtuais);
+                List<HeroisSuperpoderes> IdsPoderesnovos = heroiDTO.SuperPoderes.Select(Sp => new HeroisSuperpoderes(heroiDTO.Id, Sp.Id)).ToList();
+                await _heroiSuperPoderesRepository.AdicionarPoderesSuperHeroiPeloId(IdsPoderesnovos);
+
+                return heroi;
             }
             catch
             {
