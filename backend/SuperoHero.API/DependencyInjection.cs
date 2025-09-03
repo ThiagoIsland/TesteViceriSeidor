@@ -18,8 +18,11 @@ namespace SuperHeroi.API
             services.AddDbContext<SuperHeroDBContext>(options => options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
             // SERVICES
             services.AddScoped<ISuperHeroiService, SuperHeroiService>();
+            services.AddScoped<ISuperPoderesService, SuperPoderesService>();
             // REPOSITORIES
             services.AddScoped<ISuperHeroiRepository, SuperHeroiRepository>();
+            services.AddScoped<IHeroiSuperPoderesRepository, HeroiSuperPoderesRepository>();
+            services.AddScoped<ISuperPoderesRepository, SuperPoderesRepository>(); 
     
             return services;
         }
