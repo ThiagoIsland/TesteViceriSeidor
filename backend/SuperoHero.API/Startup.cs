@@ -37,6 +37,16 @@ namespace backend
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Super Heróis - API", Version = "v1" });
             });
+            
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAngularApp", builder =>
+                {
+                    builder.WithOrigins("http://localhost:4200")
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -49,6 +59,9 @@ namespace backend
             app.UseSwaggerUI();
             app.UseHttpsRedirection();
             app.UseRouting();
+            
+            app.UseCors("AllowAngularApp");
+            
             app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {

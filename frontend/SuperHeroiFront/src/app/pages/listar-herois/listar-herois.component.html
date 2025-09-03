@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Lista de Super-Heróis</h2>
+  
+  <div *ngIf="herois.length === 0">
+    <p>Nenhum herói encontrado.</p>
+  </div>
+
+  <div *ngIf="herois.length > 0" class="herois-grid">
+    <div *ngFor="let heroi of herois" class="heroi-card">
+      <div class="heroi-header">
+        <h3>{{ heroi.nomeHeroi }}</h3>
+        <span class="heroi-id">#{{ heroi.id }}</span>
+      </div>
+      
+      <div class="heroi-info">
+        <p><strong>Nome:</strong> {{ heroi.nome }}</p>
+        <p><strong>Data de Nascimento:</strong> {{ heroi.dataNascimento | date:'dd/MM/yyyy' }}</p>
+        <p><strong>Altura:</strong> {{ heroi.altura }}m</p>
+        <p><strong>Peso:</strong> {{ heroi.peso }}kg</p>
+      </div>
+
+      <div *ngIf="heroi.heroisSuperpoderes && heroi.heroisSuperpoderes.length > 0" class="superpoderes">
+        <h4>Superpoderes:</h4>
+        <div class="superpoderes-list">
+          <span *ngFor="let poder of heroi.heroisSuperpoderes" class="superpoder-tag">
+            {{ poder.superpoder.superpoder }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

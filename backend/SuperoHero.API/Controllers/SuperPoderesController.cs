@@ -9,7 +9,7 @@ using SuperHeroi.Application.Interfaces;
 namespace SuperHeroi.API.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[Action]")]
     public class SuperPoderesController : ControllerBase
     {
         private readonly ISuperPoderesService _service;

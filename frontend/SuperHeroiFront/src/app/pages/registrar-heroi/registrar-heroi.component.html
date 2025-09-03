@@ -1,0 +1,58 @@
+<div class="container">
+    <h2>Registrar Novo Herói</h2>
+  
+    <form [formGroup]="heroiForm" (ngSubmit)="onSubmit()">
+  
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" formControlName="nome">
+        <div *ngIf="heroiForm.get('nome')?.invalid && heroiForm.get('nome')?.touched" class="error-message">
+          Nome é obrigatório.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="nomeHeroi">Nome do Herói</label>
+        <input id="nomeHeroi" type="text" formControlName="nomeHeroi">
+         <div *ngIf="heroiForm.get('nomeHeroi')?.invalid && heroiForm.get('nomeHeroi')?.touched" class="error-message">
+          Nome do herói é obrigatório.
+        </div>
+      </div>
+  
+      <div class="form-group">
+        <label for="dataNascimento">Data de Nascimento</label>
+        <input id="dataNascimento" type="date" formControlName="dataNascimento">
+         <div *ngIf="heroiForm.get('dataNascimento')?.invalid && heroiForm.get('dataNascimento')?.touched" class="error-message">
+          Data de nascimento é obrigatória.
+        </div>
+      </div>
+  
+            <div class="form-group">
+          <label for="altura">Altura (m)</label>
+          <input id="altura" type="number" formControlName="altura">
+          <div *ngIf="heroiForm.get('altura')?.invalid && heroiForm.get('altura')?.touched" class="error-message">
+            Altura inválida.
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="peso">Peso (kg)</label>
+          <input id="peso" type="number" formControlName="peso">
+          <div *ngIf="heroiForm.get('peso')?.invalid && heroiForm.get('peso')?.touched" class="error-message">
+            Peso inválido.
+          </div>
+        </div>
+      
+  
+      <div class="form-group">
+        <label for="poderes">Superpoderes</label>
+        <select id="poderes" formControlName="poderesIds" multiple>
+          <option *ngFor="let poder of superpoderesDisponiveis" [value]="poder.id">
+            {{ poder.superpoder }}
+          </option>
+        </select>
+      </div>
+  
+      <button type="submit" [disabled]="heroiForm.invalid">Registrar Herói</button>
+    </form>
+
+  </div>
