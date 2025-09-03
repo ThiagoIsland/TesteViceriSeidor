@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroi.API", "backend\SuperHeroi.API.csproj", "{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroi.Infra", "Superhero.Infra\SuperHeroi.Infra.csproj", "{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroi.Application", "SuperHero.Application\SuperHeroi.Application.csproj", "{5C27C28B-4568-4923-9B80-06B84B1BDF2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroi.Domain", "Superhero.Domain\SuperHeroi.Domain.csproj", "{0301C7F1-932F-4D90-AD40-77E75A9244E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHeroi.API", "SuperoHero.API\SuperHeroi.API.csproj", "{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{0301C7F1-932F-4D90-AD40-77E75A9244E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0301C7F1-932F-4D90-AD40-77E75A9244E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0301C7F1-932F-4D90-AD40-77E75A9244E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

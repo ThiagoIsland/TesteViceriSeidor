@@ -13,3 +13,4 @@ C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcorea
 C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Domain.pdb
 C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Infra.pdb
 C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHer.5BFBF9CB.Up2Date
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.sourcelink.json

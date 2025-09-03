@@ -14,3 +14,4 @@ C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Infra\obj\Debug\netcoreapp3.1\
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Infra\bin\Debug\netcoreapp3.1\SuperHeroi.Domain.dll
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Infra\bin\Debug\netcoreapp3.1\SuperHeroi.Domain.pdb
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Infra\obj\Debug\netcoreapp3.1\SuperHer.DF708B5A.Up2Date
+C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Infra\obj\Debug\netcoreapp3.1\SuperHeroi.Infra.sourcelink.json
