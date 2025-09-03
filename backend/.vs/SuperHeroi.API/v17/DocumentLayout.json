@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.domain\\entities\\superpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|solutionrelative:superhero.domain\\entities\\superpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\services\\superheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\services\\superheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.domain\\entities\\herois.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|solutionrelative:superhero.domain\\entities\\herois.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.domain\\entities\\heroissuperpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|solutionrelative:superhero.domain\\entities\\heroissuperpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.domain\\superheroi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|solutionrelative:superhero.domain\\superheroi.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\interfaces\\isuperheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\interfaces\\isuperheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\backend\\controllers\\superheroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|solutionrelative:backend\\controllers\\superheroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\backend\\controllers\\superpoderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|solutionrelative:backend\\controllers\\superpoderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\dtos\\superheroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\dtos\\superheroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\dtos\\superpoderesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\dtos\\superpoderesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\repositories\\superheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\repositories\\superheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\backend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|solutionrelative:backend\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\superheroi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\superheroi.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\backend\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|solutionrelative:backend\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\interfaces\\isuperheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\interfaces\\isuperheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\context\\superherodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\context\\superherodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD5B30B5-E34A-4D29-9907-A79AD0EE594C}|backend\\SuperHeroi.API.csproj|solutionrelative:backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SuperHeroi.Domain",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\SuperHeroi.Domain.csproj",
+              "RelativeDocumentMoniker": "Superhero.Domain\\SuperHeroi.Domain.csproj",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\SuperHeroi.Domain.csproj",
+              "RelativeToolTip": "Superhero.Domain\\SuperHeroi.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T02:47:23.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "SuperHero.Application\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:41:29.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "SuperHero.Application\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T03:38:14.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HeroisSuperpoderes.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "RelativeDocumentMoniker": "Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "RelativeToolTip": "Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:50:36.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Superpoderes.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\Entities\\Superpoderes.cs",
+              "RelativeDocumentMoniker": "Superhero.Domain\\Entities\\Superpoderes.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\Entities\\Superpoderes.cs",
+              "RelativeToolTip": "Superhero.Domain\\Entities\\Superpoderes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:50:32.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SuperHeroDBContext.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Infra\\Context\\SuperHeroDBContext.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Context\\SuperHeroDBContext.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Infra\\Context\\SuperHeroDBContext.cs",
+              "RelativeToolTip": "Superhero.Infra\\Context\\SuperHeroDBContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:50:26.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SuperHeroi.Application",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\SuperHeroi.Application.csproj",
+              "RelativeDocumentMoniker": "SuperHero.Application\\SuperHeroi.Application.csproj",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\SuperHeroi.Application.csproj",
+              "RelativeToolTip": "SuperHero.Application\\SuperHeroi.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-03T02:33:50.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\Exceptions\\AlreadyExistsException.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeToolTip": "SuperHero.Application\\Exceptions\\AlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:37:20.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\Program.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Program.cs",
+              "RelativeToolTip": "backend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:34:03.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Startup.cs",
+              "RelativeDocumentMoniker": "backend\\Startup.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Startup.cs",
+              "RelativeToolTip": "backend\\Startup.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:33:51.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "backend\\DependencyInjection.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\DependencyInjection.cs",
+              "RelativeToolTip": "backend\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T02:19:49.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISuperHeroiService.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
+              "RelativeToolTip": "SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:42:33.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ISuperHeroiRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:40:00.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Herois.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\Entities\\Herois.cs",
+              "RelativeDocumentMoniker": "Superhero.Domain\\Entities\\Herois.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Domain\\Entities\\Herois.cs",
+              "RelativeToolTip": "Superhero.Domain\\Entities\\Herois.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:39:53.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.Development.json",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\appsettings.Development.json",
+              "RelativeToolTip": "backend\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-03T01:31:50.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SuperHeroiRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:25:23.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SuperHeroiDTO.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
+              "RelativeToolTip": "SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:22:01.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuperHeroiService.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Services\\SuperHeroiService.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\Services\\SuperHeroiService.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Services\\SuperHeroiService.cs",
+              "RelativeToolTip": "SuperHero.Application\\Services\\SuperHeroiService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:19:28.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SuperHeroiController.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Controllers\\SuperHeroiController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\SuperHeroiController.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Controllers\\SuperHeroiController.cs",
+              "RelativeToolTip": "backend\\Controllers\\SuperHeroiController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwFgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:17:28.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SuperPoderesController.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Controllers\\SuperPoderesController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\SuperPoderesController.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\backend\\Controllers\\SuperPoderesController.cs",
+              "RelativeToolTip": "backend\\Controllers\\SuperPoderesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T01:17:25.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SuperPoderesDTO.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
+              "RelativeDocumentMoniker": "SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
+              "RelativeToolTip": "SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T00:41:23.974Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

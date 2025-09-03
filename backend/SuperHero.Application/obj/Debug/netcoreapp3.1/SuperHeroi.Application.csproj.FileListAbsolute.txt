@@ -1,0 +1,15 @@
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Application.deps.json
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Application.dll
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Application.pdb
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.csproj.AssemblyReference.cache
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.AssemblyInfoInputs.cache
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.AssemblyInfo.cs
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.csproj.CoreCompileInputs.cache
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.dll
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHeroi.Application.pdb
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Domain.dll
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Infra.dll
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Domain.pdb
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\bin\Debug\netcoreapp3.1\SuperHeroi.Infra.pdb
+C:\ws\ViceriSeidor\testetecnico\backend\SuperHero.Application\obj\Debug\netcoreapp3.1\SuperHer.5BFBF9CB.Up2Date
