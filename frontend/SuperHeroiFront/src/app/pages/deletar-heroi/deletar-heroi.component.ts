@@ -14,20 +14,17 @@ export class DeletarHeroiComponent {
 
   deleteForm: FormGroup;
   mensagemSucesso: string = '';
-  mensagemErro: string = '';
 
   constructor(
     private fb: FormBuilder,
     private superHeroiService: SuperHeroiService
   ) {
     this.deleteForm = this.fb.group({
-      id: [null, [Validators.required, Validators.min(1)]]
+      id: [Validators.required]
     });
   }
 
   onSubmit(): void {
-
-
     const idParaDeletar = this.deleteForm.value.id;
 
     this.superHeroiService.deletarSuperHeroi(idParaDeletar).subscribe({

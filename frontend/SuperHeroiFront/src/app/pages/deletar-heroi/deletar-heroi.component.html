@@ -11,5 +11,6 @@
       <button type="submit" [disabled]="deleteForm.invalid" class="delete-button">Deletar Herói
       </button>
     </form>
+    <div *ngIf="mensagemSucesso" class="success-message">{{ mensagemSucesso }}</div>
 
   </div>

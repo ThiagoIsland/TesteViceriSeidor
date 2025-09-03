@@ -34,13 +34,6 @@
     transition: border-color 0.3s;
   }
   
-  .form-group input:focus,
-  .form-group select:focus {
-    outline: none;
-    border-color: #007bff;
-  }
-
-  
   button {
     width: 100%;
     padding: 0.8rem;
@@ -52,10 +45,6 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
-  button:disabled {
-    background-color: #a0c7e4;
-    cursor: not-allowed;
-  }
+
   
   
