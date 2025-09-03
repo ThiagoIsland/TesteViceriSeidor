@@ -1,1 +1,49 @@
-<p>atualizar-heroi works!</p>
+<div class="container">
+    <h2>Atualizar Herói</h2>
+      
+      <form [formGroup]="heroiForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="id">ID</label>
+          <input id="id" type="number" formControlName="id">
+        </div>
+
+      <form [formGroup]="heroiForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input id="nome" type="text" formControlName="nome">
+        </div>
+  
+        <div class="form-group">
+          <label for="nomeHeroi">Nome do Herói</label>
+          <input id="nomeHeroi" type="text" formControlName="nomeHeroi">
+        </div>
+  
+        <div class="form-group">
+          <label for="dataNascimento">Data de Nascimento</label>
+          <input id="dataNascimento" type="date" formControlName="dataNascimento">
+        </div>
+  
+        <div class="form-row">
+          <div class="form-group">
+            <label for="altura">Altura (m)</label>
+            <input id="altura" type="number" formControlName="altura">
+          </div>
+          <div class="form-group">
+            <label for="peso">Peso (kg)</label>
+            <input id="peso" type="number" formControlName="peso">
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <label for="poderes">Superpoderes</label>
+          <select id="poderes" formControlName="poderesIds" multiple>
+            <option *ngFor="let poder of superpoderesDisponiveis" [value]="poder.id">
+              {{ poder.superpoder }}
+            </option>
+          </select>
+        </div>
+  
+        <button type="submit" [disabled]="heroiForm.invalid || heroiForm.pristine">
+          Salvar Alterações
+        </button>
+      </form>

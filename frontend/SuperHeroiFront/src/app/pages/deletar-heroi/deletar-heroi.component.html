@@ -1,1 +1,15 @@
-<p>deletar-heroi works!</p>
+<div class="container">
+    <h2>Deletar Herói 🗑️</h2>
+    <p>Digite o ID do herói que você deseja remover permanentemente.</p>
+  
+    <form [formGroup]="deleteForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="id">ID do Herói</label>
+        <input id="id" type="number" formControlName="id">
+      </div>
+  
+      <button type="submit" [disabled]="deleteForm.invalid" class="delete-button">Deletar Herói
+      </button>
+    </form>
+
+  </div>

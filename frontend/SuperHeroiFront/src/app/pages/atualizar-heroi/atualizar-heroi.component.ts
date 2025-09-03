@@ -1,11 +1,86 @@
-import { Component } from '@angular/core';
-
+import { Component, OnInit  } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import { SuperHeroiService } from '../../services/SuperHeroiService';
+import { SuperPoderesService } from '../../services/SuperPoderesService';
+import { SuperHeroi } from '../../interfaces/SuperHeroi.interface';
+import { SuperPoder } from '../../interfaces/superpoder.interface';
 @Component({
-  selector: 'app-atualizar-heroi',
-  imports: [],
+  selector: 'app-registrar-heroi',
+  imports: [
+    CommonModule,
+    ReactiveFormsModule
+  ],
   templateUrl: './atualizar-heroi.component.html',
   styleUrl: './atualizar-heroi.component.css'
 })
-export class AtualizarHeroiComponent {
+export class AtualizarHeroiComponent implements OnInit {
+  heroId: any;
+  heroiForm: FormGroup;
+  superpoderesDisponiveis: SuperPoder[] = [];
 
+
+  constructor(
+    private formBuilder: FormBuilder,
+    private superHeroiService: SuperHeroiService,
+    private superPoderesService: SuperPoderesService
+  ) {
+
+    this.heroiForm = this.formBuilder.group({
+      id: [0, Validators.required],
+      nome: ['', Validators.required],
+      nomeHeroi: ['', Validators.required],
+      dataNascimento: ['', Validators.required],
+      altura: [0, [Validators.required, Validators.min(0.1)]],
+      peso: [0, [Validators.required, Validators.min(1)]],
+      poderesIds: [[], Validators.required]
+    });
+  }
+
+  ngOnInit(): void {
+    this.carregarSuperpoderes();
+  }
+
+  carregarSuperpoderes(): void {
+    this.superPoderesService.obterTodosSuperPoderes().subscribe({
+      next: (poderes) => {
+        this.superpoderesDisponiveis = poderes;
+      },
+      error: (err) => {
+      }
+    });
+  }
+
+  onSubmit(): void {
+
+
+    if (this.heroiForm.invalid) {
+      this.heroiForm.markAllAsTouched();
+      return;
+    }
+    //const idHeroi = this.Id;
+    const formValues = this.heroiForm.value;
+
+    const heroisSuperpoderes = formValues.poderesIds.map((id: number) => ({
+      superpoderId: id
+    }));
+
+    const novoHeroi: SuperHeroi = {
+      id: this.heroId,
+      nome: formValues.nome,
+      nomeHeroi: formValues.nomeHeroi,
+      dataNascimento: formValues.dataNascimento,
+      altura: formValues.altura,
+      peso: formValues.peso,
+      heroisSuperpoderes: heroisSuperpoderes
+    };
+
+    this.superHeroiService.atualizarSuperHeroi(this.heroId, novoHeroi).subscribe({
+      next: () => {
+        this.heroiForm.reset();
+      },
+      error: (err) => {
+      }
+    });
+  }
 }

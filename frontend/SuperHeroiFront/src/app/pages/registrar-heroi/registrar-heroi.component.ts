@@ -18,8 +18,7 @@ export class RegistrarHeroiComponent implements OnInit {
 
   heroiForm: FormGroup;
   superpoderesDisponiveis: SuperPoder[] = [];
-  mensagemSucesso: string = '';
-  mensagemErro: string = '';
+
 
   constructor(
     private formBuilder: FormBuilder,
@@ -47,15 +46,11 @@ export class RegistrarHeroiComponent implements OnInit {
         this.superpoderesDisponiveis = poderes;
       },
       error: (err) => {
-        console.error('Erro ao carregar superpoderes', err);
-        this.mensagemErro = 'Não foi possível carregar a lista de superpoderes.';
       }
     });
   }
 
   onSubmit(): void {
-    this.mensagemSucesso = '';
-    this.mensagemErro = '';
 
     if (this.heroiForm.invalid) {
       this.heroiForm.markAllAsTouched();
@@ -80,12 +75,9 @@ export class RegistrarHeroiComponent implements OnInit {
 
     this.superHeroiService.registrarSuperHeroi(novoHeroi).subscribe({
       next: () => {
-        this.mensagemSucesso = 'Herói registrado com sucesso! ✅';
         this.heroiForm.reset();
       },
       error: (err) => {
-        console.error('Erro ao registrar herói', err);
-        this.mensagemErro = 'Ocorreu um erro ao registrar o herói. Tente novamente.';
       }
     });
   }
