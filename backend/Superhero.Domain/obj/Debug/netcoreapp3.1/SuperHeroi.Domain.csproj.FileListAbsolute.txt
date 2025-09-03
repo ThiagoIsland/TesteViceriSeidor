@@ -6,6 +6,6 @@ C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.AssemblyInfoInputs.cache
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.AssemblyInfo.cs
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.csproj.CoreCompileInputs.cache
+C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.sourcelink.json
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.dll
 C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.pdb
-C:\ws\ViceriSeidor\testetecnico\backend\Superhero.Domain\obj\Debug\netcoreapp3.1\SuperHeroi.Domain.sourcelink.json

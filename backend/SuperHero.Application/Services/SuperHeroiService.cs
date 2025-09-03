@@ -35,9 +35,7 @@ namespace SuperHeroi.Application.Services
                   Peso = heroiDTO.Peso,
                 };
 
-                heroi.HeroisSuperpoderes = heroiDTO.SuperPoderes.Select(poderes => poderes.Id).ToList()
-                .Select(superpoderId => new HeroisSuperpoderes { SuperpoderId = superpoderId })
-                .ToList();
+                List<HeroisSuperpoderes> heroisSuperpoderes = heroiDTO.SuperPoderes.Select(Sp => new HeroisSuperpoderes(heroi.Id, Sp.Id)).ToList();
 
                 return await _heroiRepository.RegistrarSuperHeroi(heroi);
             }
