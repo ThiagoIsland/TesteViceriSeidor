@@ -21,7 +21,7 @@
   "DefaultConnection": "Server=SEU_SERVIDOR;Database=SEU_DATABASE;RESTANTE_DA_CONNECTIONSTRING;"
 }
 ``` 
-- Logo em seguida o projeto deve ser iniciar o projeto via CLI ou na IDE, após a aplicação ser compilada deverá ser aberto o Swagger na URL: 
+- Logo em seguida o projeto deve ser iniciar via CLI ou na IDE, após a aplicação ser compilada deverá ser aberto o Swagger na URL: 
 ```bash
 https://localhost:44346/swagger
 ``` 
