@@ -38,7 +38,7 @@ npm start
 ```
 - Após iniciada a aplicação ira ser aberta na URL:
 ```bash
-- http://localhost:4200
+http://localhost:4200
 ```
 
 ## ENDPOINTS
