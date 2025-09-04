@@ -1,77 +1,80 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\",
+  "WorkspaceRootPath": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superohero.api\\controllers\\superheroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\controllers\\superheroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\services\\superheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\services\\superheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superohero.api\\controllers\\superpoderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\controllers\\superpoderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superohero.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\dtos\\superheroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\dtos\\superheroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\dtos\\superpoderesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\dtos\\superpoderesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superohero.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\interfaces\\isuperheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\interfaces\\isuperheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\services\\superpoderesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.application\\services\\superpoderesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\services\\superpoderesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.application\\interfaces\\isuperpoderesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.application\\interfaces\\isuperpoderesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\interfaces\\isuperpoderesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\repositories\\superpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superohero.api\\controllers\\superheroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\controllers\\superheroicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.application\\services\\superheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\services\\superheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superohero.api\\controllers\\superpoderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\controllers\\superpoderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superohero.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.application\\dtos\\superheroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\dtos\\superheroidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.application\\dtos\\superpoderesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\dtos\\superpoderesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superohero.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B789BA32-FCEB-3AC7-44CC-D0BD5A5519C1}|SuperoHero.API\\SuperHeroi.API.csproj|solutionrelative:superohero.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.application\\interfaces\\isuperheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C27C28B-4568-4923-9B80-06B84B1BDF2A}|SuperHero.Application\\SuperHeroi.Application.csproj|solutionrelative:superhero.application\\interfaces\\isuperheroiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.infra\\repositories\\superpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\repositories\\superpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\repositories\\superheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.infra\\repositories\\superheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\repositories\\superheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.domain\\entities\\herois.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.domain\\entities\\herois.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|solutionrelative:superhero.domain\\entities\\herois.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.domain\\entities\\heroissuperpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.domain\\entities\\heroissuperpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0301C7F1-932F-4D90-AD40-77E75A9244E2}|Superhero.Domain\\SuperHeroi.Domain.csproj|solutionrelative:superhero.domain\\entities\\heroissuperpoderes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\repositories\\heroisuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.infra\\repositories\\heroisuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\repositories\\heroisuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\interfaces\\isuperheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.infra\\interfaces\\isuperheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\interfaces\\isuperheroirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\interfaces\\iheroisuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.infra\\interfaces\\iheroisuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\interfaces\\iheroisuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testetecnico\\backend\\superhero.infra\\interfaces\\isuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|c:\\ws\\viceriseidor\\testeviceriseidor\\backend\\superhero.infra\\interfaces\\isuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BA762AF-30E5-4CBA-B48F-C6ADAAE30EFE}|Superhero.Infra\\SuperHeroi.Infra.csproj|solutionrelative:superhero.infra\\interfaces\\isuperpoderesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -82,15 +85,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\README.md*",
+              "RelativeToolTip": "..\\README.md*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-09-04T00:30:32.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SuperoHero.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "SuperoHero.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -98,11 +114,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ISuperHeroiService.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
               "RelativeDocumentMoniker": "SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
               "RelativeToolTip": "SuperHero.Application\\Interfaces\\ISuperHeroiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SuperHeroiDTO.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
               "RelativeDocumentMoniker": "SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
               "RelativeToolTip": "SuperHero.Application\\DTOs\\SuperHeroiDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -122,24 +138,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SuperHeroiService.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Services\\SuperHeroiService.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Services\\SuperHeroiService.cs",
               "RelativeDocumentMoniker": "SuperHero.Application\\Services\\SuperHeroiService.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Services\\SuperHeroiService.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Services\\SuperHeroiService.cs",
               "RelativeToolTip": "SuperHero.Application\\Services\\SuperHeroiService.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAEwFsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:52:22.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T13:52:22.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SuperPoderesDTO.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
               "RelativeDocumentMoniker": "SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
               "RelativeToolTip": "SuperHero.Application\\DTOs\\SuperPoderesDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SuperHeroiController.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\Controllers\\SuperHeroiController.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\Controllers\\SuperHeroiController.cs",
               "RelativeDocumentMoniker": "SuperoHero.API\\Controllers\\SuperHeroiController.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\Controllers\\SuperHeroiController.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\Controllers\\SuperHeroiController.cs",
               "RelativeToolTip": "SuperoHero.API\\Controllers\\SuperHeroiController.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAawFsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,83 +175,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Herois.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Domain\\Entities\\Herois.cs",
-              "RelativeDocumentMoniker": "SuperHero.Domain\\Entities\\Herois.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Domain\\Entities\\Herois.cs",
-              "RelativeToolTip": "SuperHero.Domain\\Entities\\Herois.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Domain\\Entities\\Herois.cs",
+              "RelativeDocumentMoniker": "Superhero.Domain\\Entities\\Herois.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Domain\\Entities\\Herois.cs",
+              "RelativeToolTip": "Superhero.Domain\\Entities\\Herois.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:48:56.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "HeroisSuperpoderes.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Domain\\Entities\\HeroisSuperpoderes.cs",
-              "RelativeDocumentMoniker": "SuperHero.Domain\\Entities\\HeroisSuperpoderes.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Domain\\Entities\\HeroisSuperpoderes.cs",
-              "RelativeToolTip": "SuperHero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "RelativeDocumentMoniker": "Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
+              "RelativeToolTip": "Superhero.Domain\\Entities\\HeroisSuperpoderes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:48:55.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SuperHeroiRepository.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Repositories\\SuperHeroiRepository.cs",
-              "RelativeDocumentMoniker": "SuperHero.Infra\\Repositories\\SuperHeroiRepository.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Repositories\\SuperHeroiRepository.cs",
-              "RelativeToolTip": "SuperHero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Repositories\\SuperHeroiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:48:53.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "HeroiSuperPoderesRepository.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
-              "RelativeDocumentMoniker": "SuperHero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
-              "RelativeToolTip": "SuperHero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Repositories\\HeroiSuperPoderesRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:19:50.969Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IHeroiSuperPoderesRepository.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
-              "RelativeDocumentMoniker": "SuperHero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
-              "RelativeToolTip": "SuperHero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Interfaces\\IHeroiSuperPoderesRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:48:50.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ISuperHeroiRepository.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
-              "RelativeDocumentMoniker": "SuperHero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
-              "RelativeToolTip": "SuperHero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Interfaces\\ISuperHeroiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:48:50.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SuperPoderesController.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\Controllers\\SuperPoderesController.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\Controllers\\SuperPoderesController.cs",
               "RelativeDocumentMoniker": "SuperoHero.API\\Controllers\\SuperPoderesController.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\Controllers\\SuperPoderesController.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\Controllers\\SuperPoderesController.cs",
               "RelativeToolTip": "SuperoHero.API\\Controllers\\SuperPoderesController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -244,35 +259,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ISuperPoderesRepository.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
-              "RelativeDocumentMoniker": "SuperHero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
-              "RelativeToolTip": "SuperHero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Interfaces\\ISuperPoderesRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:14:52.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SuperPoderesRepository.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Repositories\\SuperPoderesRepository.cs",
-              "RelativeDocumentMoniker": "SuperHero.Infra\\Repositories\\SuperPoderesRepository.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Infra\\Repositories\\SuperPoderesRepository.cs",
-              "RelativeToolTip": "SuperHero.Infra\\Repositories\\SuperPoderesRepository.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Repositories\\SuperPoderesRepository.cs",
+              "RelativeDocumentMoniker": "Superhero.Infra\\Repositories\\SuperPoderesRepository.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\Superhero.Infra\\Repositories\\SuperPoderesRepository.cs",
+              "RelativeToolTip": "Superhero.Infra\\Repositories\\SuperPoderesRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T13:14:48.297Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "SuperoHero.API\\DependencyInjection.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperoHero.API\\DependencyInjection.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperoHero.API\\DependencyInjection.cs",
               "RelativeToolTip": "SuperoHero.API\\DependencyInjection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -280,27 +295,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "ISuperPoderesService.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Interfaces\\ISuperPoderesService.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Interfaces\\ISuperPoderesService.cs",
               "RelativeDocumentMoniker": "SuperHero.Application\\Interfaces\\ISuperPoderesService.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Interfaces\\ISuperPoderesService.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Interfaces\\ISuperPoderesService.cs",
               "RelativeToolTip": "SuperHero.Application\\Interfaces\\ISuperPoderesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:13:53.563Z"
+              "WhenOpened": "2025-09-03T13:13:53.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "SuperPoderesService.cs",
-              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Services\\SuperPoderesService.cs",
+              "DocumentMoniker": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Services\\SuperPoderesService.cs",
               "RelativeDocumentMoniker": "SuperHero.Application\\Services\\SuperPoderesService.cs",
-              "ToolTip": "C:\\ws\\ViceriSeidor\\testetecnico\\backend\\SuperHero.Application\\Services\\SuperPoderesService.cs",
+              "ToolTip": "C:\\ws\\ViceriSeidor\\TesteViceriSeidor\\backend\\SuperHero.Application\\Services\\SuperPoderesService.cs",
               "RelativeToolTip": "SuperHero.Application\\Services\\SuperPoderesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T13:13:42.362Z"
+              "WhenOpened": "2025-09-03T13:13:42.362Z",
+              "EditorCaption": ""
             }
           ]
         }

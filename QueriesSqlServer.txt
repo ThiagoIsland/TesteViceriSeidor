@@ -1,0 +1,42 @@
+-- Segue abaixo os scripts/queries para serem executada no Banco de Dados.
+
+-- Criação da tabela de Superpoderes
+CREATE TABLE Superpoderes (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Superpoder NVARCHAR(50) NOT NULL,
+    Descricao NVARCHAR(250) NULL
+);
+GO
+
+-- Criação da tabela de Herois
+CREATE TABLE Herois (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nome NVARCHAR(120) NOT NULL,
+    NomeHeroi NVARCHAR(120) NOT NULL UNIQUE,
+    DataNascimento DATETIME2(7) NOT NULL,
+    Altura FLOAT NOT NULL,
+    Peso FLOAT NOT NULL
+);
+GO
+
+-- Criação da tabela de associação HeroisSuperpoderes
+CREATE TABLE HeroisSuperpoderes (
+    HeroiId INT NOT NULL,
+    SuperpoderId INT NOT NULL,
+    -- Chave primária composta para garantir que um herói não tenha o mesmo poder repetido
+    PRIMARY KEY (HeroiId, SuperpoderId),
+    -- Chave estrangeira referenciando a tabela Herois
+    FOREIGN KEY (HeroiId) REFERENCES Herois(Id) ON DELETE CASCADE,
+    -- Chave estrangeira referenciando a tabela Superpoderes
+    FOREIGN KEY (SuperpoderId) REFERENCES Superpoderes(Id) ON DELETE CASCADE
+);
+GO
+
+INSERT INTO Superpoderes (Superpoder, Descricao) VALUES
+('Super Força', 'Força física acima do normal'),
+('Voo', 'Capacidade de voar pelos céus livremente'),
+('Super Resistência', 'Resistência Física acima do normal'),
+('Telepatia', 'Capacidade de ler e se comunicar mentalmente'),
+('Aceleração de Particulas', 'Acesso e controle da Força de Aceleração, um campo de energia cósmica que concede supervelocidade'),
+('Anel do Poder ', 'Anel que canaliza a força de vontade do usuário parar criar construtos de energia sólida');
+GO
