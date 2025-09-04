@@ -42,6 +42,7 @@ npm start
 ```
 
 ## ENDPOINTS
+
 *-> SuperHeroi*
 
 - /api/SuperHeroi/ObterTodosSuperHerois (GET)
@@ -53,6 +54,9 @@ npm start
 *-> SuperPoderes*
 - /api/SuperPoderes/ObterTodosSuperPoderes (GET)
 - /api/SuperPoderes/RegistrarSuperPoder (POST)
+## ENDPOINTS
+
+![alt text](FLUXO.png)
 
 ## EXTRAS
 
