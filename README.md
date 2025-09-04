@@ -27,7 +27,7 @@ https://localhost:44346/swagger
 ``` 
 *-> DATABASE*
 
-- Eu optei utilizar o Microsoft SQL Server por questões de familiaridade. As queries para serem executadas e serem realizados testes estão sendo disponibilizadas no arquivo `QueriesSqlServer.txt`.
+- Eu optei por utilizar o Microsoft SQL Server por questões de familiaridade. As queries para serem executadas e serem realizados testes estão sendo disponibilizadas no arquivo `QueriesSqlServer.txt`.
 
 *-> FRONTEND*
 - Abrir a pasta no seguinte caminho: ../frontend/SuperHeroiFront
