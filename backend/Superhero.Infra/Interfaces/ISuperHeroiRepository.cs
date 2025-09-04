@@ -10,6 +10,7 @@ namespace SuperHeroi.Infra.Interfaces
         Task<List<Herois>> ObterTodosHerois();
         Task<Herois> ObterHeroiPeloId(int Id);
         Task<Herois> ObterHeroiPeloNome(string nome);
+        Task<Herois> AtualizarHeroi(Herois heroi);
         Task RemoverHeroi(Herois heroi);
     }
 }

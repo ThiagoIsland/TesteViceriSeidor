@@ -39,7 +39,7 @@ namespace SuperHeroi.Application.Services
                   Altura = heroiDTO.Altura,
                   Peso = heroiDTO.Peso,
                 };
-                await _heroiRepository.RegistrarSuperHeroi(heroi);
+                heroi = await _heroiRepository.RegistrarSuperHeroi(heroi);
 
                 List<HeroisSuperpoderes> heroisSuperpoderes = heroiDTO.SuperPoderes.Select(Sp => new HeroisSuperpoderes(heroi.Id, Sp.Id)).ToList();
                 await _heroiSuperPoderesRepository.AdicionarPoderesSuperHeroiPeloId(heroisSuperpoderes);
@@ -93,10 +93,9 @@ namespace SuperHeroi.Application.Services
                     throw new NotFoundException("Identificação não encontrada. Por favor, coloque um ID existente;");
                 }
                 var heroiExistente = await _heroiRepository.ObterHeroiPeloNome(heroiDTO.Nome);
-                if (heroiExistente != null)
+                if (heroiExistente != null && heroiExistente.Id != id)
                 {
                     throw new AlreadyExistsException("Já existe um héroi com esse nome. Por favor, tente outro nome");
-
                 }
 
                 heroi.Nome = heroiDTO.Nome;
@@ -110,7 +109,7 @@ namespace SuperHeroi.Application.Services
                 List<HeroisSuperpoderes> IdsPoderesnovos = heroiDTO.SuperPoderes.Select(Sp => new HeroisSuperpoderes(heroiDTO.Id, Sp.Id)).ToList();
                 await _heroiSuperPoderesRepository.AdicionarPoderesSuperHeroiPeloId(IdsPoderesnovos);
 
-                return heroi;
+                return await _heroiRepository.AtualizarHeroi(heroi);
             }
             catch
             {

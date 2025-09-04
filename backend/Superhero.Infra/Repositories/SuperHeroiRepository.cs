@@ -40,6 +40,12 @@ namespace SuperHeroi.Infra.Repositories
                 .ThenInclude(HeroiSp => HeroiSp.Superpoder)
                 .FirstOrDefaultAsync(x => x.Nome == nome); ;
         }
+        public async Task<Herois> AtualizarHeroi(Herois heroi)
+        {
+            _context.Herois.Update(heroi);
+            await _context.SaveChangesAsync();
+            return heroi;
+        }
         public async Task RemoverHeroi(Herois heroi)
         {
             _context.Herois.Remove(heroi);

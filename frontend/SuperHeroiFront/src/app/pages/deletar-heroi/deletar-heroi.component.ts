@@ -28,7 +28,7 @@ export class DeletarHeroiComponent {
     const idParaDeletar = this.deleteForm.value.id;
 
     this.superHeroiService.deletarSuperHeroi(idParaDeletar).subscribe({
-        next: (resposta) => {
+        next: (response) => {
           this.mensagemSucesso = `Herói com ID ${idParaDeletar} foi deletado com sucesso!`;
           this.deleteForm.reset();
         },

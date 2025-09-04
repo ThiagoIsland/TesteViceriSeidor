@@ -89,7 +89,7 @@ namespace SuperHeroi.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> AtualizarSuperHeroi(int id, SuperHeroiDTO heroiDTO)
-        {
+            {
             try
             { 
                 var atualizarHeroi = await _service.AtualizarHeroi(id, heroiDTO);

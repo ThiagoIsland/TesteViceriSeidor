@@ -22,8 +22,8 @@
       <div *ngIf="heroi.heroisSuperpoderes && heroi.heroisSuperpoderes.length > 0" class="superpoderes">
         <h4>Superpoderes:</h4>
         <div class="superpoderes-list">
-          <span *ngFor="let poder of heroi.heroisSuperpoderes" class="superpoder-tag">
-            {{ poder.superpoder.superpoder }}
+          <span *ngFor="let poder of heroi.heroisSuperpoderes">
+           {{ poder.superpoder.superpoder }} |
           </span>
         </div>
       </div>
