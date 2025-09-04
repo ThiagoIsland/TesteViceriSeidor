@@ -54,7 +54,8 @@ npm start
 *-> SuperPoderes*
 - /api/SuperPoderes/ObterTodosSuperPoderes (GET)
 - /api/SuperPoderes/RegistrarSuperPoder (POST)
-## ENDPOINTS
+
+## FLUXO DE UMA REQUISIÇÃO
 
 ![alt text](FLUXO.png)
 
